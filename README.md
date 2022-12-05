@@ -10,6 +10,10 @@ La misión consta de dos partes: primero deberás construir un proyecto en React
 
 ![image](https://user-images.githubusercontent.com/115027137/205542594-9d873249-037e-4e43-927a-f82da09e94a1.png)
 
+<h1></h1>
+
+
+
 
 
 <h1>Respuestas a las preguntas</h1>
@@ -17,49 +21,85 @@ La misión consta de dos partes: primero deberás construir un proyecto en React
 <h1>¿Cuáles son las ceremonias más importantes de un Sprint y cuál es la idea de cada una?</h1>
 Sprint planing.
 
--Se realiza al comienzo de cada Sprint y participa el equipo para definir como esta organizado el backlog del producto y como las tareas serán repartidas durante la semana.
+- Se realiza al comienzo de cada Sprint y participa el equipo para definir como esta organizado el backlog del producto y como las tareas serán repartidas durante la semana.
 
 Daily Scrum.
 
--Es una reunion diaria en la cual su duración es aproximadamente de 15 minutos en la que participa el development team respondiendo las preguntas principales. Que hice ayer, que voy hacer hoy, existe algun impedimento para el sprint goal?
+- Es una reunion diaria en la cual su duración es aproximadamente de 15 minutos en la que participa el development team respondiendo las preguntas principales. Que hice ayer, que voy hacer hoy, existe algun impedimento para el sprint goal?
 
-- Construido con HTML implementando una nueva estructura 
-
-- Aplicacion de css 
-
-Se creo un nuevo diseño, utilizando muchas de las propiedades y conceptos aprendidos.
+<h1>¿Qué son los Wireframes? Nombra al menos una herramienta que podamos utilizar.</h1>
 
 
-<h1>construido con</h1>
+los wireframes son los prototipos de las paginas web, que ayudan a dar una estimación del esquema del producto final. Alli se puede observar la estructura basica y los tipos de contenido que tendra. La creación de wireframes es una manera eficaz de hacer prototipos rápidos de páginas, mientras que se realiza a la vez una medición de la viabilidad de un concepto de diseño. Dentro del proceso de construcción de un sitio web las ideas se hacen mas tangibles.
 
-- Marcado HTML5 semántico
-- Propiedades personalizadas de CSS
-- caja flexible
+Herramientas que se pueden utilizar: Balsamic , Canva , MockFlow.
 
- <h1>Aprendi</h1>
-Afiance conocientos que hemos venido trabajando cque son importantes a la hora de crear nuestros diseños. 
+<h1>Explicar la diferencia entre var, let y const. Y dar un ejemplo en qué caso se utilizará.</h1>
 
-``` .section2 h8{
-    filter: opacity(0.5);
-    margin-left: 1rem;
+
+- Las variables tipo Var pueden ser tomadas como variables globales en la cual pueden ser modificadas sin ninguna restricción.
+
+- Las variables tipo Let tienen el concepto de block scope en la cual solo permite que se pueda acceder dentro del bloque declarado.
+
+- Las variables tipo constantes Const son variables que no se pueden modificar
+
+<h1>Explicar la diferencia entre git merge y git rebase.</h1>
+
+- El rebase unifica las ramas dejando un arbol lineal o más bonito.El merge aun deja el gráfico de las ramas.
+- 
+- otras de las diferencias, el merge a la hora de querer unificar nos toca realizar un commit de más , en nuestro caso el de la descripción (uniendo commit 1,2 y 4 con el 3 ) , este es el commit que muchos dicen commit basura ó innecesario . El rebase unifica sin necesidad de crear un nuevo commit .
+
+- Hay una diferencia bien importante que debemos tener en cuenta a la hora de mirar cual de los dos tomar . El rebase unifica las ramas perdiendo el historial de los commit y el merge no . Esto puede resultar bien importante cuando se necesite llevar o saber el historial de commit y se esta trabajando con otros compañeros en esa rama. Puedes llegar ser odiado por el equipo al usar rebase XD.
+
+
+
+``` .c-section{
+    background-color: rgb(255, 255, 255);
+    max-width: 710px;
+    height: 600px;
     
 }
 
-
-body {
+.c-section__title{
+    background-color: rgb(78, 76, 76);
+    color: white;
     display: flex;
+    align-items: center;
     justify-content: center;
-    width: 115.9%;
-    margin-left: 5%;
+    height: 70px;
+}
+
+.c-services{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 0;
+}
+
+.c-services__item{
+    background-color: rgb(246, 247, 242);
+    width: 350px;
+    height: 150px;
+    list-style:none;
+
+}
+
+.c-services__item:hover{
+    box-shadow: 0px 10px 10px -10px;
     
 }
-.section1 p{
-    color: hsl(195, 5%, 69%);
-    margin-right: 10%;
-    font-size: 15px;
-    line-height: 30px;
+
+h3{
+    text-align: center;
 }
+
 ```
+
+
+
+
     
     
 <h1>desarrollo continuo</h1>
