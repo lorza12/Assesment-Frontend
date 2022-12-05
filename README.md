@@ -53,13 +53,9 @@ Herramientas que se pueden utilizar: Balsamic , Canva , MockFlow.
 
 <h1>¿Cuál es la diferencia entre Pull Request (PR) y el comando git pull?</h1>
 
-- ¿Qué es el comando git pull?
-Resultado de imagen para ¿Cuál es la diferencia entre Pull Request (PR) y el comando git pull?
-El comando git pull se emplea para extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local para reflejar ese contenido.
+-El comando git pull se emplea para extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local para reflejar ese contenido.
 
-- ¿Qué es hacer una pull request?
-Resultado de imagen para ¿Cuál es la diferencia entre Pull Request (PR) y el comando git pull?
-Una Pull Request es la acción de validar un código que se va a mergear de una rama a otra.
+- Una Pull Request es la acción de validar un código que se va a mergear de una rama a otra. En este proceso de validación pueden entrar los factores que queramos: Builds (validaciones automáticas), asignación de código a tareas, validaciones manuales por parte del equipo, despliegues, etc.
 
 <h1>¿Qué es el Virtual DOM?</h1>
 
