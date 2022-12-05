@@ -46,12 +46,31 @@ Herramientas que se pueden utilizar: Balsamic , Canva , MockFlow.
 <h1>Explicar la diferencia entre git merge y git rebase.</h1>
 
 - El rebase unifica las ramas dejando un arbol lineal o más bonito.El merge aun deja el gráfico de las ramas.
-- 
+
 - otras de las diferencias, el merge a la hora de querer unificar nos toca realizar un commit de más , en nuestro caso el de la descripción (uniendo commit 1,2 y 4 con el 3 ) , este es el commit que muchos dicen commit basura ó innecesario . El rebase unifica sin necesidad de crear un nuevo commit .
 
 - Hay una diferencia bien importante que debemos tener en cuenta a la hora de mirar cual de los dos tomar . El rebase unifica las ramas perdiendo el historial de los commit y el merge no . Esto puede resultar bien importante cuando se necesite llevar o saber el historial de commit y se esta trabajando con otros compañeros en esa rama. Puedes llegar ser odiado por el equipo al usar rebase XD.
 
+<h1>¿Cuál es la diferencia entre Pull Request (PR) y el comando git pull?</h1>
 
+- ¿Qué es el comando git pull?
+Resultado de imagen para ¿Cuál es la diferencia entre Pull Request (PR) y el comando git pull?
+El comando git pull se emplea para extraer y descargar contenido desde un repositorio remoto y actualizar al instante el repositorio local para reflejar ese contenido.
+
+- ¿Qué es hacer una pull request?
+Resultado de imagen para ¿Cuál es la diferencia entre Pull Request (PR) y el comando git pull?
+Una Pull Request es la acción de validar un código que se va a mergear de una rama a otra.
+
+<h1>¿Qué es el Virtual DOM?</h1>
+
+- El Virtual DOM es una representación del DOM guardada en memoria, que actúa de intermediario entre los estados de la aplicación y los estados del DOM (vistos por el usuario). Cuando ocurre un cambio en la aplicación web, el virtual DOM interpreta dichos cambios y calcula la manera más eficiente de actualizar el DOM para que renderice la menor cantidad de cambios posibles.
+
+<h1>Dado el siguiente codePen, el cual solo tiene un HTML, por medio de css llegar a esta respuesta.</h1>
+
+![codePPP](https://user-images.githubusercontent.com/115027137/205544344-58183164-59e7-417c-90a8-f881ee040541.png)
+
+
+<h1>Codigo</h1>
 
 ``` .c-section{
     background-color: rgb(255, 255, 255);
@@ -97,19 +116,3 @@ h3{
 
 ```
 
-
-
-
-    
-    
-<h1>desarrollo continuo</h1>
-Aprender cada vez mas sobre las propiedades que nos pueden ser mas utiles en nuestro codigo para asi darle un mejor rendimiento y entendimiento del mismo.
-
-<h1>Recursos utiles</h1>
-
-* [MaterialApoyo](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - [MAp](https://www.htmlhelp.com/es/reference/css/properties.html)
-
-<h1>Expresiones de gratitud</h1>
-
-- agradecimiento a las compañera Diana Carolina Quinche por el buen trbajo en equipo.
- 
