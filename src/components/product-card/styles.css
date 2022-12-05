@@ -1,0 +1,38 @@
+.products{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  gap: 100px 30px;
+  justify-content: center;
+
+}
+
+.products__elements img{
+  width: 80px;
+}
+
+.products__elements{
+  font-size: 10px;
+  width: 300px;
+  height: 280px;
+  border-radius: 15px;
+  border-color: black;
+  border-style: solid;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cont{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 250px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.conta1 img{
+  max-width: 250px;
+}
+
