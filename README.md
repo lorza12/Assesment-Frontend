@@ -1,6 +1,5 @@
 # Assesment-Frontend
 
-<h1>Assesment Frontend</h1>
 
 El objetivo de esta misión es poner en práctica lo que has aprendido en el programa. Los temas que se cubrirán son: Scrum, Git, HTML y CSS, JavaScript y React.
 
