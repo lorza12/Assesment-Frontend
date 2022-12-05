@@ -12,7 +12,16 @@ La misión consta de dos partes: primero deberás construir un proyecto en React
 
 
 
-<h1>mi proceso</h1>
+<h1>Respuestas a las preguntas</h1>
+
+<h1>¿Cuáles son las ceremonias más importantes de un Sprint y cuál es la idea de cada una?</h1>
+Sprint planing.
+
+-Se realiza al comienzo de cada Sprint y participa el equipo para definir como esta organizado el backlog del producto y como las tareas serán repartidas durante la semana.
+
+Daily Scrum.
+
+-Es una reunion diaria en la cual su duración es aproximadamente de 15 minutos en la que participa el development team respondiendo las preguntas principales. Que hice ayer, que voy hacer hoy, existe algun impedimento para el sprint goal?
 
 - Construido con HTML implementando una nueva estructura 
 
